@@ -28,7 +28,7 @@
                     <button class="nav-btn open-btn" id="open-nav">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <button class="nav-btn close-btn" id="close-nav">
+                    <button class="nav-btn close-btn remove-btn" id="close-nav">
                         <i class="fa fa-times"></i>
                     </button>
                     <?php wp_nav_menu(array('them_location' => 'menu-1', 'container' => false, 'menu_class' => 'navigation')) ?>

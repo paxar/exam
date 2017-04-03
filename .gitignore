@@ -114,19 +114,7 @@ Thumbs.db
 !wp-content/themes/gh-exam/
 !wp-content/uploads/*
 
-# libs jquery
-wp-content/themes/gh-exam/vendors/*
-!wp-content/themes/gh-exam/vendors/jquery/
-wp-content/themes/gh-exam/vendors/jquery/*
-!wp-content/themes/gh-exam/vendors/jquery/dist/
-wp-content/themes/gh-exam/vendors/jquery/dist/*
-!wp-content/themes/gh-exam/vendors/jquery/dist/jquery.min.js
 
-# libs bootstrap
-!wp-content/themes/gh-exam/vendors/bootstrap-sass/
-wp-content/themes/gh-exam/vendors/bootstrap-sass/*
-!wp-content/themes/gh-exam/vendors/bootstrap-sass/assets/
-wp-content/themes/gh-exam/vendors/bootstrap-sass/assets/*
-!wp-content/themes/gh-exam/vendors/bootstrap-sass/assets/javascripts/
-wp-content/themes/gh-exam/vendors/bootstrap-sass/assets/javascripts/*
-!wp-content/themes/gh-exam/vendors/bootstrap-sass/assets/javascripts/bootstrap.min.js
+!wp-content/themes/gh-exam/vendors/*
+
+
