@@ -20,9 +20,9 @@
                 <div class="nav-header">
                     <h1 class="logo">
                         <?php the_custom_logo(); ?>
-                        BusinessPlus
+
                     </h1>
-                    <div class="tel"><a href="tel:<?php echo get_theme_mod('phone_number'); ?>"><?php echo get_theme_mod('phone_number'); ?></a></div>
+
                 </div>
                 <nav class="main-nav">
                     <button class="nav-btn open-btn" id="open-nav">
