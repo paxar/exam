@@ -40,7 +40,7 @@ wp-content/mu-plugins/*
 wp-content/plugins/*
 wp-content/themes/*
 wp-content/uploads/*
-wp-content/plugins/busted/*
+
 
 # ignore all files starting with . or ~
 .*
@@ -109,6 +109,7 @@ Thumbs.db
 # track these mu-plugins, plugins, and themes
 # add your own entries here
 #-----!wp-content/mu-plugins/example-mu-plugin/
+!wp-content/plugins/
 !wp-content/plugins/*
 !wp-content/themes/gh-exam/
 !wp-content/uploads/*
