@@ -39,27 +39,7 @@
     <section class="hero">
         <div class="container header-page">
 
-            <?php if ( is_front_page() ) : ?>
-            <ul class="slider-hero">
-                <?php
-                $args = array(
-                    'post_type' => 'slider-hero',
-                    'posts_per_page' => 10
-                );
-                $the_query = new WP_Query($args);
-                if ( $the_query -> have_posts() ) : while ( $the_query -> have_posts() ) : $the_query -> the_post(); ?>
-
-                <li class="intro-hero slide">
-                    <span><?= get_post_meta($post->ID, 'welcome', true) ?></span>
-                    <h2 class="intro"><?php the_title(); ?></h2>
-                    <?php the_content( 'Read more' ); ?>
-                </li>
-
-                <?php endwhile; ?>
-                    <?php wp_reset_postdata(); ?>
-                <?php endif; ?>
-            </ul>
-            <?php endif; ?>
+           <p>hero section</p>
 
         </div>
     </section>
