@@ -16,7 +16,7 @@ define('WP_SITEURL','http://your_localhost');
 
 **Dev Hosting**
 
-add link !!!!!!!!!
+http://dev-exam-gh.pantheonsite.io/
 
 
 
