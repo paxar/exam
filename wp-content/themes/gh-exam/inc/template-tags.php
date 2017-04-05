@@ -69,7 +69,7 @@ function gh_exam_entry_footer() {
 	edit_post_link(
 		sprintf(
 			/* translators: %s: Name of current post */
-			esc_html__( 'Edit %s', 'gh-exam' ),
+			esc_html__( 'Edit! %s', 'gh-exam' ),
 			the_title( '<span class="screen-reader-text">"', '"</span>', false )
 		),
 		'<span class="edit-link">',

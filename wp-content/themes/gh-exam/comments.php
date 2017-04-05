@@ -20,6 +20,8 @@ if ( post_password_required() ) {
 }
 ?>
 
+<p class="helper">comments.php</p>
+
 <div id="comments" class="comments-area">
 
 	<?php

@@ -87,6 +87,21 @@ function gh_exam_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'gh_exam_scripts' );
 
+function new_excerpt_length($length) {  // custom excerpt length
+    return 30; // words count
+}
+add_filter('excerpt_length', 'new_excerpt_length');
+
+add_filter('excerpt_more', 'new_excerpt_more');
+function new_excerpt_more($more) {
+    global $post;
+    return '<a href="'. get_permalink($post->ID) . '"> ...</a>';
+}
+
+
+
+
+
 /**
  * Implement the Custom Header feature.
  */

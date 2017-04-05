@@ -39,7 +39,14 @@
     <section class="hero">
         <div class="container header-page">
 
-           <p>hero section</p>
+            <?php if ( is_front_page() ) : ?>
+           <div> hero section</div>
+            <?php else : ?>
+                <div> other hero section</div>
+
+            <?php endif; ?>
+
+
 
         </div>
     </section>
