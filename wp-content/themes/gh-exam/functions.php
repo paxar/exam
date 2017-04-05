@@ -85,6 +85,8 @@ function gh_exam_scripts() {
     wp_enqueue_script('main_js');
 
 }
+
+
 add_action( 'wp_enqueue_scripts', 'gh_exam_scripts' );
 
 function new_excerpt_length($length) {  // custom excerpt length

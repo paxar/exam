@@ -185,3 +185,9 @@ get_footer( $name ) - подключает файл шаблона footer.php
     register_nav_menus( array(
     'top-menu' => esc_html__( 'Primary', 'nava' ),
     ) );
+
+    Достать значения произвольных полей поста
+
+<?php echo '<div>' . get_post_meta($post->ID, 'user_submit_name', true) . '</div>'; ?>
+
+    <?php echo get_post_meta($post->ID, 'location', true); ?>
