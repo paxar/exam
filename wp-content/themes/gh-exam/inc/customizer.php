@@ -85,6 +85,17 @@ function gh_exam_customize_register( $wp_customize ) {
             )
         )
     );
+    $wp_customize->add_setting(
+        'about_hide'
+    );
+    $wp_customize->add_control(
+        'about_hide',
+        array(
+            'label' => esc_html__('Show section', 'dwellings'),
+            'section' => 'hero-section',
+            'type'     => 'checkbox'
+        )
+    );
 }
 add_action( 'customize_register', 'gh_exam_customize_register' );
 
