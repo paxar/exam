@@ -12,7 +12,7 @@ Template Name: Home page
         $args = array(
             //'post_type' => 'your_post_type',
             //'order' => 'ASC', // old first
-            'posts_per_page' => 2
+            'posts_per_page' => 100
         );
 
         $query = new WP_Query($args);
@@ -49,6 +49,13 @@ Template Name: Home page
 
 
 
+</section>
+
+<section class="test-form">
+    <div class="container">
+
+    <?php echo do_shortcode("[shortcode]"); ?>
+    </div>
 </section>
 
 

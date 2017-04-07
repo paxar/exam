@@ -14,7 +14,7 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
+		<div class="container site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'gh-exam' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'gh-exam' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
 			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'gh-exam' ), 'gh-exam', '<a href="https://automattic.com/" rel="designer">paxar</a>' ); ?>
