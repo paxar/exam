@@ -73,8 +73,8 @@ Version: 1.0.0
   .site-header .main-nav .nav-btn {
     display: none; }
   .site-header .main-nav .navigation {
-    display: -ms-flexbox;
-    display: flex;
+    display: -ms-flexbox !important;
+    display: flex !important;
     position: relative;
     width: auto;
     height: auto;
