@@ -23,6 +23,7 @@
     "slick-carousel": "^1.6.0"
   },
   "devDependencies": {
-    "bootstrap-sass": "^3.3.7"
+    "bootstrap-sass": "^3.3.7",
+    "isotope": "^3.0.3"
   }
 }

@@ -16,6 +16,7 @@ Version: 1.0.0
 --------------------------------------------------------------*/
 @import "base/common";
 @import "base/fonts";
+@import "base/text-styles";
 
 /*--------------------------------------------------------------
 # Components
@@ -28,16 +29,17 @@ Version: 1.0.0
 @import "layout/header";
 
 @import "layout/footer";
-@import "layout/about-us";
+@import "layout/hero";
 
 /*--------------------------------------------------------------
 # Pages
 --------------------------------------------------------------*/
 @import "pages/blog-page";
 @import "pages/not-found";
+@import "pages/page-home";
 
 .helper{
-  //display: none;
+  display: none;
   font-size: 14px;
   color: orangered;
 }

@@ -55,6 +55,7 @@ function gh_exam_widgets_init() {
 	) );
 
 
+
 }
 add_action( 'widgets_init', 'gh_exam_widgets_init' );
 
@@ -79,6 +80,11 @@ function gh_exam_scripts() {
     wp_register_script('slider', get_template_directory_uri() . '/vendors/slick-carousel/slick/slick.min.js', ['jquery'], '', true);
 
     wp_enqueue_script('slider');
+
+	wp_register_script('isotope', get_template_directory_uri() . '/vendors/isotope/dist/isotope.pkgd.min.js', ['jquery'], '', true);
+
+	wp_enqueue_script('isotope');
+
 
     wp_register_script('main_js', get_template_directory_uri() . '/js/main.js', ['jquery'], '', true);
 

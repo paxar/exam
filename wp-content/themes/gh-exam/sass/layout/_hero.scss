@@ -1,0 +1,62 @@
+.hero{
+  position: relative;
+  background-color: $brand-color;
+  padding: 60px 0;
+
+  .hero-button{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    color: #ffffff;
+    font-size: 16px;
+
+  }
+
+}
+.hero-description{
+  padding: 50px 0;
+  .hero-title{
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-transform: uppercase;
+
+  }
+  .hero-subtitle{
+    display: block;
+    margin-top: 35px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .hero-subtitle2{
+    margin-top: 30px;
+    display: block;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .hero-info{
+    margin-top: 25px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+
+
+}
+
+.hero-title-others{
+  text-align: center;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 24px;
+}

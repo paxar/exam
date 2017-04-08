@@ -1,0 +1,111 @@
+.partners{
+  padding: 100px 0;
+  background-color: $brand-color;
+  .main-title{
+    margin-bottom: 30px;
+  }
+
+}
+
+footer{
+  background-color: #000;
+  .bg-footer{
+
+    padding: 70px 0 0;
+  }
+  .footer-title{
+    color: #fff;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  .footer-description{
+    padding: 30px 0;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+
+  }
+  .info-phone,
+  .info-address{
+    padding: 10px 0;
+    display: block;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    .fa{
+      font-size: 25px;
+      margin-right: 10px;
+    }
+
+  }
+
+  .info-map{
+    margin-top: 20px;
+
+  }
+
+  .footer-form{
+    input[type="text"],
+    input[type="email"]
+    {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      color: #777;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 24px;
+    }
+    textarea{
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      color: #777;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 24px;
+    }
+    input[type="submit"]{
+      width: 182px;
+      height: 60px;
+      background-color: #ff4848;
+      color: #fff;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24px;
+      text-transform: uppercase;
+      outline: none;
+      border: none;
+    }
+
+  }
+  .footer-logo{
+    padding: 20px 0;
+    background-color: #17212a;
+    text-align: center;
+  }
+  .footer-copy{
+    padding: 20px 0;
+    background-color: $brand-color;
+    text-align: center;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+
+
+
+
+  }
+
+}

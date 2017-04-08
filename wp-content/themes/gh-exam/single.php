@@ -9,28 +9,49 @@
 
 get_header(); ?>
 
-<p class="helper">single.php</p>
+    <p class="helper">single.php</p>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
 
-		<?php
-		while ( have_posts() ) : the_post();
+			<?php
+			while ( have_posts() ) :
+			the_post(); ?>
+            <section class="blog-single">
+                <div class="container">
+                    <div class="blog-posts col-xs-12 col-md-8">
 
-			get_template_part( 'template-parts/content', get_post_format() );
 
-			the_post_navigation();
+                        <div class="blog-single-item">
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
 
-		endwhile; // End of the loop.
-		?>
+                            <div class="item-description">
+                                <h3> <?php the_title(); ?> </h3>
+                                <p><?php the_content(); ?></p>
+                            </div>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+                        </div>
+
+                        <?php the_post_navigation() ?>
+
+
+						<?php endwhile; // End of the loop.
+						?>
+
+
+                    </div>
+
+                    <div class="sidebar col-xs-12 col-md-4 ">
+						<?php dynamic_sidebar( 'sidebar-1' ); ?>
+                    </div>
+
+                </div>
+
+
+            </section>
+
+        </main><!-- #main -->
+    </div><!-- #primary -->
 
 <?php
 //get_sidebar();
